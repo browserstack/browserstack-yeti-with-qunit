@@ -13,7 +13,7 @@ npm i -g yeti
 ./BrowserStackLocal -onlyAutomate -skipCheck SAMPLEKEY 10.100.100.116,9000,0
 ```
 
-Replace SAMPLEKEY with your browserstack automate key.
+Replace `SAMPLEKEY` with your browserstack automate key.
 
 3) To start testing sample.html on Chrome browser (Windows platform) using BrowserStack infrastructure, run :
 
