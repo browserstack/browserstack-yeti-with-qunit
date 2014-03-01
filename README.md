@@ -12,7 +12,7 @@ npm i -g yeti
 ```
 ./BrowserStackLocal -onlyAutomate -skipCheck SAMPLEKEY 10.100.100.116,9000,0
 ```
-
+Replace `10.100.100.116` with the `ip address` yeti server is listening on (To find that out, try yeti -s and notice the ip address it listens on. Press Ctrl+C to close yeti now)
 Replace `SAMPLEKEY` with your browserstack automate key.
 
 3) To start testing sample.html on Chrome browser (Windows platform) using BrowserStack infrastructure, run :
